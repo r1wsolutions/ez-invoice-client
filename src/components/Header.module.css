@@ -1,0 +1,57 @@
+.header{
+    background-color: rgb(70, 145, 207);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 4rem;
+    margin-top: 0;
+    font-family: 'Fjalla One', sans-serif;
+    border-bottom: rgb(70, 145, 207) solid 1px;
+    box-shadow: 0px 0px 8px 2px rgb(30, 74, 110);
+    z-index: 5;
+} 
+
+.nav-col{
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    width: 100%;
+}
+.left{
+    /* background-color: yellow; */
+    width: 47%;
+}
+.title{
+    margin-left: 2rem;
+    margin-bottom: 0;
+    padding: 0;
+
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+.right{
+    /* background-color: goldenrod; */
+    width: 53%;
+    display: flex;
+    justify-self:left;
+    align-items: flex-end;
+}
+
+@media (max-width:500px) {
+    .title{
+        margin-left: 1rem;
+        font-size: 1.25rem;
+    }
+    .left{
+        width: 37%;
+    }
+    .right{
+        width: 63%;
+    }
+}

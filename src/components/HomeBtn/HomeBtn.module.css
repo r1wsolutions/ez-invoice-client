@@ -1,0 +1,23 @@
+.btn{
+    background-color: inherit;
+    box-shadow: none;
+    border: 1px black solid;
+    color: white;
+    padding: .25rem 1rem;
+    margin: 0;
+    margin-bottom: .25rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: 'Fjalla One', sans-serif;
+
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.btn:hover{
+    color: lightskyblue;
+    font-weight: bolder;
+}
